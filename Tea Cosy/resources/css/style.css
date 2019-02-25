@@ -1,0 +1,158 @@
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  align-items: center;
+}
+
+/*Header*/
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  z-index: 1;
+}
+
+.logo {
+  display: flex;
+  padding-left: 10px;
+  height: 50px;
+}
+
+nav a {
+  text-decoration: underline;
+  color: white;
+  text-align: center;
+  position: relative;
+  left: 860px;
+  padding: 10px;
+}
+
+/*Mission Section*/
+
+.mission {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  position: relative;
+  top: 10px;
+  margin: 0 auto;
+}
+
+.container-mission {
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+  height: 145px;
+}
+
+/*Tea of The Month Section*/
+
+.monthtea {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+.menu {
+  margin : 0 auto;
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+
+}
+
+.menu img {
+  width: 300px;
+  height: 200px;
+}
+
+.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+}
+
+.item h4 {
+  padding-bottom: 10px;
+}
+
+/*Locations Section*/
+
+.locations {
+  margin: 0 auto;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.locations h2 {
+  text-align: center;
+  padding-top: 70px
+}
+
+.rows {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 110px;
+}
+
+.leftrow {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  height: 250px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.middlerow {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  height: 250px;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.rightrow {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  height: 250px;
+  text-align: center;
+}
+
+/*Footer*/
+
+footer {
+  height : 200px;
+}
+
+.topfooter {
+  text-align: center;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
